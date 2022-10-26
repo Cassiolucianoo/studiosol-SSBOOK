@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8A67696CEF03C8740D1CB86 /* Pods_studiosol_SSBOOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */; };
 		D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */; };
 		D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */; };
 		D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5BA290710DE00F70FEB /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.release.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.release.xcconfig"; sourceTree = "<group>"; };
+		B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.debug.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.debug.xcconfig"; sourceTree = "<group>"; };
 		D8B5C5B3290710DE00F70FEB /* studiosol-SSBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "studiosol-SSBOOK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		D8B5C5BF290710E000F70FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B5C5C2290710E000F70FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B5C5C4290710E000F70FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_studiosol_SSBOOK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A67696CEF03C8740D1CB86 /* Pods_studiosol_SSBOOK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		989F5134B0386407BFB2741D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0838FB338CF88EFD98B0434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */,
+				0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D8B5C5AA290710DD00F70FEB = {
 			isa = PBXGroup;
 			children = (
 				D8B5C5B5290710DE00F70FEB /* studiosol-SSBOOK */,
 				D8B5C5B4290710DE00F70FEB /* Products */,
+				A0838FB338CF88EFD98B0434 /* Pods */,
+				989F5134B0386407BFB2741D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8B5C5C7290710E000F70FEB /* Build configuration list for PBXNativeTarget "studiosol-SSBOOK" */;
 			buildPhases = (
+				9E9DF8EDF974483E92B84675 /* [CP] Check Pods Manifest.lock */,
 				D8B5C5AF290710DE00F70FEB /* Sources */,
 				D8B5C5B0290710DE00F70FEB /* Frameworks */,
 				D8B5C5B1290710DE00F70FEB /* Resources */,
@@ -131,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E9DF8EDF974483E92B84675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-studiosol-SSBOOK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8B5C5AF290710DE00F70FEB /* Sources */ = {
@@ -283,6 +334,7 @@
 		};
 		D8B5C5C8290710E000F70FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +353,7 @@
 		};
 		D8B5C5C9290710E000F70FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

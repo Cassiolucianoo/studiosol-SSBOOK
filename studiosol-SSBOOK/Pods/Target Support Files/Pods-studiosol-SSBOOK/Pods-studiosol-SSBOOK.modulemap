@@ -1,0 +1,6 @@
+framework module Pods_studiosol_SSBOOK {
+  umbrella header "Pods-studiosol-SSBOOK-umbrella.h"
+
+  export *
+  module * { export * }
+}
