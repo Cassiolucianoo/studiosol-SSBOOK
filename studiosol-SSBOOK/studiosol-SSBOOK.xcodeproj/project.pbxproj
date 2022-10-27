@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8A67696CEF03C8740D1CB86 /* Pods_studiosol_SSBOOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */; };
+		D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864DC46290AB98700A53CB0 /* HomeViewController.swift */; };
 		D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */; };
 		D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */; };
 		D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5BA290710DE00F70FEB /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.release.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.release.xcconfig"; sourceTree = "<group>"; };
 		B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.debug.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.debug.xcconfig"; sourceTree = "<group>"; };
+		D864DC46290AB98700A53CB0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D8B5C5B3290710DE00F70FEB /* studiosol-SSBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "studiosol-SSBOOK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */,
 				0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				D8B5C5BF290710E000F70FEB /* Assets.xcassets */,
 				D8B5C5C1290710E000F70FEB /* LaunchScreen.storyboard */,
 				D8B5C5C4290710E000F70FEB /* Info.plist */,
+				D864DC46290AB98700A53CB0 /* HomeViewController.swift */,
 			);
 			path = "studiosol-SSBOOK";
 			sourceTree = "<group>";
@@ -191,6 +193,7 @@
 				D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */,
 				D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */,
 				D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */,
+				D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
