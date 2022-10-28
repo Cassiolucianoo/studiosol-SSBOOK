@@ -3,25 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A8A67696CEF03C8740D1CB86 /* Pods_studiosol_SSBOOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */; };
+		D84C6F82290C567F00295351 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F81290C567F00295351 /* Services.swift */; };
+		D84C6F84290C597C00295351 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F83290C597C00295351 /* API.swift */; };
+		D84C6F86290C5CAB00295351 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F85290C5CAB00295351 /* Network.swift */; };
+		D84C6F8B290C772B00295351 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F8A290C772B00295351 /* Book.swift */; };
+		D84C6F8D290C776500295351 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F8C290C776500295351 /* Author.swift */; };
+		D84C6F8F290C796C00295351 /* FavoriteBooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */; };
+		D84C6F91290C7E0300295351 /* FavoriteBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F90290C7E0300295351 /* FavoriteBooksViewController.swift */; };
+		D84C6F93290C83BE00295351 /* Alert+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F92290C83BE00295351 /* Alert+UIViewController.swift */; };
+		D84C6F95290C846300295351 /* FavoriteBookViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */; };
+		D84C6F98290C86C000295351 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F97290C86C000295351 /* BookViewModel.swift */; };
+		D84C6F9A290C889400295351 /* DetailBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F99290C889400295351 /* DetailBookViewModel.swift */; };
 		D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864DC46290AB98700A53CB0 /* HomeViewController.swift */; };
-		D864DC63290AF2EB00A53CB0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC56290AF2EA00A53CB0 /* Roboto-LightItalic.ttf */; };
-		D864DC64290AF2EB00A53CB0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC57290AF2EA00A53CB0 /* Roboto-Light.ttf */; };
-		D864DC65290AF2EB00A53CB0 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC58290AF2EA00A53CB0 /* Roboto-MediumItalic.ttf */; };
-		D864DC66290AF2EB00A53CB0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC59290AF2EA00A53CB0 /* Roboto-BlackItalic.ttf */; };
-		D864DC67290AF2EB00A53CB0 /* bebas-neue-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC5A290AF2EA00A53CB0 /* bebas-neue-regular.otf */; };
-		D864DC68290AF2EB00A53CB0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC5B290AF2EA00A53CB0 /* Roboto-BoldItalic.ttf */; };
-		D864DC69290AF2EB00A53CB0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC5C290AF2EA00A53CB0 /* Roboto-ThinItalic.ttf */; };
-		D864DC6A290AF2EB00A53CB0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC5D290AF2EB00A53CB0 /* Roboto-Medium.ttf */; };
-		D864DC6B290AF2EB00A53CB0 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC5E290AF2EB00A53CB0 /* Roboto-Thin.ttf */; };
-		D864DC6C290AF2EB00A53CB0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC5F290AF2EB00A53CB0 /* Roboto-Regular.ttf */; };
-		D864DC6D290AF2EB00A53CB0 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC60290AF2EB00A53CB0 /* Roboto-Bold.ttf */; };
-		D864DC6E290AF2EB00A53CB0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC61290AF2EB00A53CB0 /* Roboto-Black.ttf */; };
-		D864DC6F290AF2EB00A53CB0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC62290AF2EB00A53CB0 /* Roboto-Italic.ttf */; };
 		D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */; };
 		D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */; };
 		D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C5BA290710DE00F70FEB /* ViewController.swift */; };
@@ -33,20 +31,18 @@
 /* Begin PBXFileReference section */
 		0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.release.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.release.xcconfig"; sourceTree = "<group>"; };
 		B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.debug.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.debug.xcconfig"; sourceTree = "<group>"; };
+		D84C6F81290C567F00295351 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D84C6F83290C597C00295351 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D84C6F85290C5CAB00295351 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D84C6F8A290C772B00295351 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D84C6F8C290C776500295351 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBooksViewModel.swift; sourceTree = "<group>"; };
+		D84C6F90290C7E0300295351 /* FavoriteBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBooksViewController.swift; sourceTree = "<group>"; };
+		D84C6F92290C83BE00295351 /* Alert+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+UIViewController.swift"; sourceTree = "<group>"; };
+		D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookViewCell.swift; sourceTree = "<group>"; };
+		D84C6F97290C86C000295351 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		D84C6F99290C889400295351 /* DetailBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewModel.swift; sourceTree = "<group>"; };
 		D864DC46290AB98700A53CB0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D864DC56290AF2EA00A53CB0 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		D864DC57290AF2EA00A53CB0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		D864DC58290AF2EA00A53CB0 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		D864DC59290AF2EA00A53CB0 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		D864DC5A290AF2EA00A53CB0 /* bebas-neue-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bebas-neue-regular.otf"; sourceTree = "<group>"; };
-		D864DC5B290AF2EA00A53CB0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		D864DC5C290AF2EA00A53CB0 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		D864DC5D290AF2EB00A53CB0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		D864DC5E290AF2EB00A53CB0 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		D864DC5F290AF2EB00A53CB0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		D864DC60290AF2EB00A53CB0 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		D864DC61290AF2EB00A53CB0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		D864DC62290AF2EB00A53CB0 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		D8B5C5B3290710DE00F70FEB /* studiosol-SSBOOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "studiosol-SSBOOK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,24 +83,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D864DC48290AE8F300A53CB0 /* fonts */ = {
+		D84C6F87290C5F8700295351 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				D864DC5A290AF2EA00A53CB0 /* bebas-neue-regular.otf */,
-				D864DC61290AF2EB00A53CB0 /* Roboto-Black.ttf */,
-				D864DC59290AF2EA00A53CB0 /* Roboto-BlackItalic.ttf */,
-				D864DC60290AF2EB00A53CB0 /* Roboto-Bold.ttf */,
-				D864DC5B290AF2EA00A53CB0 /* Roboto-BoldItalic.ttf */,
-				D864DC62290AF2EB00A53CB0 /* Roboto-Italic.ttf */,
-				D864DC57290AF2EA00A53CB0 /* Roboto-Light.ttf */,
-				D864DC56290AF2EA00A53CB0 /* Roboto-LightItalic.ttf */,
-				D864DC5D290AF2EB00A53CB0 /* Roboto-Medium.ttf */,
-				D864DC58290AF2EA00A53CB0 /* Roboto-MediumItalic.ttf */,
-				D864DC5F290AF2EB00A53CB0 /* Roboto-Regular.ttf */,
-				D864DC5E290AF2EB00A53CB0 /* Roboto-Thin.ttf */,
-				D864DC5C290AF2EA00A53CB0 /* Roboto-ThinItalic.ttf */,
+				D84C6F81290C567F00295351 /* Services.swift */,
+				D84C6F92290C83BE00295351 /* Alert+UIViewController.swift */,
 			);
-			path = fonts;
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		D84C6F96290C86AE00295351 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D84C6F97290C86C000295351 /* BookViewModel.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		D8B5C5AA290710DD00F70FEB = {
@@ -128,7 +121,8 @@
 		D8B5C5B5290710DE00F70FEB /* studiosol-SSBOOK */ = {
 			isa = PBXGroup;
 			children = (
-				D864DC48290AE8F300A53CB0 /* fonts */,
+				D84C6F96290C86AE00295351 /* New Group */,
+				D84C6F87290C5F8700295351 /* GraphQL */,
 				D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */,
 				D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */,
 				D8B5C5BA290710DE00F70FEB /* ViewController.swift */,
@@ -137,6 +131,14 @@
 				D8B5C5C1290710E000F70FEB /* LaunchScreen.storyboard */,
 				D8B5C5C4290710E000F70FEB /* Info.plist */,
 				D864DC46290AB98700A53CB0 /* HomeViewController.swift */,
+				D84C6F83290C597C00295351 /* API.swift */,
+				D84C6F85290C5CAB00295351 /* Network.swift */,
+				D84C6F8A290C772B00295351 /* Book.swift */,
+				D84C6F8C290C776500295351 /* Author.swift */,
+				D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */,
+				D84C6F90290C7E0300295351 /* FavoriteBooksViewController.swift */,
+				D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */,
+				D84C6F99290C889400295351 /* DetailBookViewModel.swift */,
 			);
 			path = "studiosol-SSBOOK";
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 				D8B5C5AF290710DE00F70FEB /* Sources */,
 				D8B5C5B0290710DE00F70FEB /* Frameworks */,
 				D8B5C5B1290710DE00F70FEB /* Resources */,
+				2C3F52F2A05A7784326528E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,21 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D864DC6D290AF2EB00A53CB0 /* Roboto-Bold.ttf in Resources */,
-				D864DC69290AF2EB00A53CB0 /* Roboto-ThinItalic.ttf in Resources */,
-				D864DC6E290AF2EB00A53CB0 /* Roboto-Black.ttf in Resources */,
-				D864DC68290AF2EB00A53CB0 /* Roboto-BoldItalic.ttf in Resources */,
 				D8B5C5C3290710E000F70FEB /* LaunchScreen.storyboard in Resources */,
-				D864DC6F290AF2EB00A53CB0 /* Roboto-Italic.ttf in Resources */,
 				D8B5C5C0290710E000F70FEB /* Assets.xcassets in Resources */,
-				D864DC64290AF2EB00A53CB0 /* Roboto-Light.ttf in Resources */,
-				D864DC67290AF2EB00A53CB0 /* bebas-neue-regular.otf in Resources */,
-				D864DC66290AF2EB00A53CB0 /* Roboto-BlackItalic.ttf in Resources */,
-				D864DC63290AF2EB00A53CB0 /* Roboto-LightItalic.ttf in Resources */,
-				D864DC6B290AF2EB00A53CB0 /* Roboto-Thin.ttf in Resources */,
-				D864DC6A290AF2EB00A53CB0 /* Roboto-Medium.ttf in Resources */,
-				D864DC6C290AF2EB00A53CB0 /* Roboto-Regular.ttf in Resources */,
-				D864DC65290AF2EB00A53CB0 /* Roboto-MediumItalic.ttf in Resources */,
 				D8B5C5BE290710DE00F70FEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +211,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2C3F52F2A05A7784326528E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9E9DF8EDF974483E92B84675 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,9 +257,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84C6F9A290C889400295351 /* DetailBookViewModel.swift in Sources */,
+				D84C6F8B290C772B00295351 /* Book.swift in Sources */,
+				D84C6F98290C86C000295351 /* BookViewModel.swift in Sources */,
+				D84C6F82290C567F00295351 /* Services.swift in Sources */,
 				D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */,
+				D84C6F8D290C776500295351 /* Author.swift in Sources */,
 				D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */,
+				D84C6F8F290C796C00295351 /* FavoriteBooksViewModel.swift in Sources */,
 				D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */,
+				D84C6F93290C83BE00295351 /* Alert+UIViewController.swift in Sources */,
+				D84C6F84290C597C00295351 /* API.swift in Sources */,
+				D84C6F91290C7E0300295351 /* FavoriteBooksViewController.swift in Sources */,
+				D84C6F86290C5CAB00295351 /* Network.swift in Sources */,
+				D84C6F95290C846300295351 /* FavoriteBookViewCell.swift in Sources */,
 				D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "studiosol-SSBOOK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "studiosol-SSBOOK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
