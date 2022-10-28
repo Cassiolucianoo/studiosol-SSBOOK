@@ -20,7 +20,7 @@ class HomeViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        //loadUserPicture()
+        loadUserPicture()
     }
 
     private func setupView() {
