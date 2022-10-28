@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A8A67696CEF03C8740D1CB86 /* Pods_studiosol_SSBOOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */; };
+		D84C6F82290C567F00295351 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F81290C567F00295351 /* Services.swift */; };
+		D84C6F84290C597C00295351 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F83290C597C00295351 /* API.swift */; };
+		D84C6F86290C5CAB00295351 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F85290C5CAB00295351 /* Network.swift */; };
 		D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D864DC46290AB98700A53CB0 /* HomeViewController.swift */; };
 		D864DC63290AF2EB00A53CB0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC56290AF2EA00A53CB0 /* Roboto-LightItalic.ttf */; };
 		D864DC64290AF2EB00A53CB0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D864DC57290AF2EA00A53CB0 /* Roboto-Light.ttf */; };
@@ -33,6 +36,9 @@
 /* Begin PBXFileReference section */
 		0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.release.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.release.xcconfig"; sourceTree = "<group>"; };
 		B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.debug.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.debug.xcconfig"; sourceTree = "<group>"; };
+		D84C6F81290C567F00295351 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D84C6F83290C597C00295351 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D84C6F85290C5CAB00295351 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D864DC46290AB98700A53CB0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D864DC56290AF2EA00A53CB0 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		D864DC57290AF2EA00A53CB0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -87,6 +93,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D84C6F87290C5F8700295351 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				D84C6F81290C567F00295351 /* Services.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
 		D864DC48290AE8F300A53CB0 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +142,7 @@
 		D8B5C5B5290710DE00F70FEB /* studiosol-SSBOOK */ = {
 			isa = PBXGroup;
 			children = (
+				D84C6F87290C5F8700295351 /* GraphQL */,
 				D864DC48290AE8F300A53CB0 /* fonts */,
 				D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */,
 				D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */,
@@ -137,6 +152,8 @@
 				D8B5C5C1290710E000F70FEB /* LaunchScreen.storyboard */,
 				D8B5C5C4290710E000F70FEB /* Info.plist */,
 				D864DC46290AB98700A53CB0 /* HomeViewController.swift */,
+				D84C6F83290C597C00295351 /* API.swift */,
+				D84C6F85290C5CAB00295351 /* Network.swift */,
 			);
 			path = "studiosol-SSBOOK";
 			sourceTree = "<group>";
@@ -152,6 +169,7 @@
 				D8B5C5AF290710DE00F70FEB /* Sources */,
 				D8B5C5B0290710DE00F70FEB /* Frameworks */,
 				D8B5C5B1290710DE00F70FEB /* Resources */,
+				2C3F52F2A05A7784326528E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +239,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2C3F52F2A05A7784326528E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9E9DF8EDF974483E92B84675 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84C6F82290C567F00295351 /* Services.swift in Sources */,
 				D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */,
 				D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */,
 				D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */,
+				D84C6F84290C597C00295351 /* API.swift in Sources */,
+				D84C6F86290C5CAB00295351 /* Network.swift in Sources */,
 				D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "studiosol-SSBOOK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,6 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "studiosol-SSBOOK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

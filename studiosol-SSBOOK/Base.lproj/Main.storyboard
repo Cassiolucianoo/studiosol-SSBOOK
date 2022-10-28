@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l64-SJ-Mhh">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -143,10 +144,10 @@
             </objects>
             <point key="canvasLocation" x="-2904" y="-169"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="NUe-ma-OEf">
             <objects>
-                <viewController id="J8f-qj-2UU" sceneMemberID="viewController">
+                <viewController id="J8f-qj-2UU" customClass="HomeViewController" customModule="studiosol_SSBOOK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bxL-jW-oAo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -161,7 +162,7 @@
                                                 <rect key="frame" x="0.0" y="123" width="414" height="85"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Livros favoritos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a19-5m-Pmv">
-                                                        <rect key="frame" x="20" y="33.666666666666657" width="181.66666666666666" height="30.333333333333329"/>
+                                                        <rect key="frame" x="20" y="33.666666666666657" width="177" height="30.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -200,7 +201,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMl-jU-i1F">
-                                                        <rect key="frame" x="165" y="78" width="107" height="34"/>
+                                                        <rect key="frame" x="163" y="79" width="107" height="33"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
                                                         <state key="normal" title="Emprestados">
                                                             <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -225,7 +226,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLY-4O-5cQ">
-                                                        <rect key="frame" x="31" y="78" width="94" height="34"/>
+                                                        <rect key="frame" x="31" y="79" width="92" height="33"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
                                                         <state key="normal" title="Meus livros">
                                                             <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -289,7 +290,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autores favoritos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVM-h8-M2C">
-                                                <rect key="frame" x="20" y="600" width="202" height="30.666666666666629"/>
+                                                <rect key="frame" x="20" y="600" width="197" height="30.666666666666629"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                 <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -328,7 +329,7 @@
                                                 <rect key="frame" x="0.0" y="766" width="414" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biblioteca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZL-sk-HU7">
-                                                        <rect key="frame" x="20" y="19.666666666666629" width="117" height="30.333333333333329"/>
+                                                        <rect key="frame" x="20.000000000000007" y="19.666666666666629" width="115.66666666666669" height="30.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -401,6 +402,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="Atu-0U-3Gj"/>
                     <size key="freeformSize" width="414" height="1300"/>
+                    <connections>
+                        <outlet property="alturaDoConteiner" destination="03h-2p-HUd" id="C2L-6e-7rr"/>
+                        <outlet property="autoresView" destination="hP1-tK-4GD" id="NHy-pk-F7S"/>
+                        <outlet property="cabecalhoView" destination="yvb-tf-e0c" id="qvd-F8-Cfe"/>
+                        <outlet property="userImagem" destination="mAd-SD-EfJ" id="TJY-zy-Cgy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xbS-8H-naa" sceneMemberID="firstResponder"/>
             </objects>
