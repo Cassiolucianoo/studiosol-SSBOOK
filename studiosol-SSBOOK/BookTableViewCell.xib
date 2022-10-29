@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Book" rowHeight="155" id="vdA-LR-80A" customClass="BookTableViewCell" customModule="studiosol_teste" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" tableViewCell="vdA-LR-80A" id="5Hl-8K-bRt">
+                <rect key="frame" x="0.0" y="0.0" width="333" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z5b-AI-8GS">
+                        <rect key="frame" x="0.0" y="10" width="61" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="0dB-sh-Izb"/>
+                            <constraint firstAttribute="width" constant="61" id="4XU-rE-qkM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="s1I-tT-VeY">
+                        <rect key="frame" x="71" y="29.5" width="242" height="51.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffj-uF-R7v">
+                                <rect key="frame" x="0.0" y="0.0" width="242" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd1-Xe-Oxe">
+                                <rect key="frame" x="0.0" y="30.5" width="242" height="21"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Cd1-Xe-Oxe" firstAttribute="top" secondItem="ffj-uF-R7v" secondAttribute="bottom" constant="7" id="ycU-Zt-9RZ"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s1I-tT-VeY" firstAttribute="leading" secondItem="z5b-AI-8GS" secondAttribute="trailing" constant="10" id="3lM-vh-n1U"/>
+                    <constraint firstAttribute="trailing" secondItem="s1I-tT-VeY" secondAttribute="trailing" constant="20" id="6iH-wP-bj8"/>
+                    <constraint firstItem="s1I-tT-VeY" firstAttribute="centerY" secondItem="z5b-AI-8GS" secondAttribute="centerY" id="Ndy-A6-EwA"/>
+                    <constraint firstAttribute="bottom" secondItem="z5b-AI-8GS" secondAttribute="bottom" constant="10" id="Ofp-5z-dOK"/>
+                    <constraint firstItem="z5b-AI-8GS" firstAttribute="top" secondItem="5Hl-8K-bRt" secondAttribute="top" constant="10" id="XsQ-Eo-emM"/>
+                    <constraint firstItem="z5b-AI-8GS" firstAttribute="leading" secondItem="5Hl-8K-bRt" secondAttribute="leading" id="oG3-DL-Bt5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Wkz-mq-EdI"/>
+            <connections>
+                <outlet property="autor" destination="Cd1-Xe-Oxe" id="k2V-it-4AG"/>
+                <outlet property="imagemView" destination="z5b-AI-8GS" id="W1D-23-Nl5"/>
+                <outlet property="titulo" destination="ffj-uF-R7v" id="bZu-4s-uBA"/>
+            </connections>
+            <point key="canvasLocation" x="141.30434782608697" y="67.96875"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -134,7 +134,7 @@
                                                 <rect key="frame" x="0.0" y="123" width="414" height="85"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Livros favoritos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a19-5m-Pmv">
-                                                        <rect key="frame" x="20" y="33.666666666666657" width="181.33333333333334" height="30.333333333333329"/>
+                                                        <rect key="frame" x="20" y="33.666666666666657" width="177" height="30.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -173,7 +173,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMl-jU-i1F">
-                                                        <rect key="frame" x="165" y="78" width="107" height="34"/>
+                                                        <rect key="frame" x="163" y="79" width="107" height="33"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
                                                         <state key="normal" title="Emprestados">
                                                             <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -198,7 +198,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLY-4O-5cQ">
-                                                        <rect key="frame" x="31" y="78" width="94" height="34"/>
+                                                        <rect key="frame" x="31" y="79" width="92" height="33"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
                                                         <state key="normal" title="Meus livros">
                                                             <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -262,7 +262,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autores favoritos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVM-h8-M2C">
-                                                <rect key="frame" x="20" y="600" width="202" height="30.666666666666629"/>
+                                                <rect key="frame" x="20" y="600" width="197" height="30.666666666666629"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                 <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -284,7 +284,7 @@
                                                     <constraint firstAttribute="height" constant="50" id="P6t-cG-Ei0"/>
                                                 </constraints>
                                                 <connections>
-                                                    <segue destination="jLX-wV-IkI" kind="embed" id="EpE-rw-YTJ"/>
+                                                    <segue destination="HUy-0O-ZyT" kind="embed" id="tjB-Zs-enB"/>
                                                 </connections>
                                             </containerView>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Pm-f6-eZQ">
@@ -301,7 +301,7 @@
                                                 <rect key="frame" x="0.0" y="766" width="414" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biblioteca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZL-sk-HU7">
-                                                        <rect key="frame" x="20" y="19.666666666666629" width="117" height="30.333333333333329"/>
+                                                        <rect key="frame" x="20.000000000000007" y="19.666666666666629" width="115.66666666666669" height="30.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                         <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -424,13 +424,13 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lK1-fx-FXL" userLabel="Title">
-                                                    <rect key="frame" x="20" y="260" width="180" height="21.333333333333314"/>
+                                                    <rect key="frame" x="20" y="260" width="180" height="21"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
                                                     <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgB-GB-1Dw">
-                                                    <rect key="frame" x="20" y="286.33333333333331" width="180" height="19"/>
+                                                    <rect key="frame" x="20" y="286" width="180" height="19"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                     <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -485,10 +485,10 @@
             </objects>
             <point key="canvasLocation" x="-1233.3333333333335" y="-329.46428571428572"/>
         </scene>
-        <!--View Controller-->
+        <!--Favorite Authors View Controller-->
         <scene sceneID="xPc-H4-iHk">
             <objects>
-                <viewController id="6dX-pL-meb" sceneMemberID="viewController">
+                <viewController id="6dX-pL-meb" customClass="FavoriteAuthorsViewController" customModule="studiosol_SSBOOK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ub-q9-b6H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -529,7 +529,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyT-3H-lQQ">
-                                                    <rect key="frame" x="114" y="53.666666666666657" width="140" height="21"/>
+                                                    <rect key="frame" x="114" y="53.666666666666657" width="142" height="21"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
                                                     <color key="textColor" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -549,6 +549,11 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="311" height="97"/>
+                                        <connections>
+                                            <outlet property="imagemView" destination="1l1-y1-pib" id="TP6-8i-QpF"/>
+                                            <outlet property="nameLB" destination="Il6-TV-Qhv" id="Xwc-PL-ytT"/>
+                                            <outlet property="numeroLivrosLB" destination="yyT-3H-lQQ" id="cNi-Uk-0n3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -562,37 +567,40 @@
                             <constraint firstAttribute="trailing" secondItem="LXr-ZL-aOu" secondAttribute="trailing" id="yuo-d3-1FT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="LXr-ZL-aOu" id="3HE-7w-6rn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AcV-LL-X34" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1191" y="-60"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="2R5-vY-yi9">
+        <!--Categories View Controller-->
+        <scene sceneID="s1C-v4-oiI">
             <objects>
-                <viewController id="jLX-wV-IkI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uCs-8f-Z6J">
+                <viewController id="HUy-0O-ZyT" customClass="CategoriesViewController" customModule="studiosol_SSBOOK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pu7-Nk-v0R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="95H-wn-fPx">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="TVv-RW-Haa">
                                 <rect key="frame" x="20" y="0.0" width="394" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ovy-lU-zbj">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ilO-OX-MDb">
                                     <size key="itemSize" width="127" height="52.5"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Category" id="icU-ge-VlK" customClass="CategoryCell" customModule="studiosol_SSBOOK" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Category" id="CF2-pK-wVN" customClass="CategoryCell" customModule="studiosol_SSBOOK" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="-1.3333333333333333" width="127" height="52.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="b8w-9c-KyQ">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dgd-cD-PRV">
                                             <rect key="frame" x="0.0" y="0.0" width="127" height="52.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxR-zg-qWC">
+                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbU-Og-fho">
                                                     <rect key="frame" x="0.0" y="0.0" width="127" height="52.666666666666664"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
@@ -607,36 +615,39 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="NxR-zg-qWC" secondAttribute="bottom" id="Q4j-aj-36m"/>
-                                                <constraint firstItem="NxR-zg-qWC" firstAttribute="leading" secondItem="b8w-9c-KyQ" secondAttribute="leading" id="XAe-ZK-sa8"/>
-                                                <constraint firstItem="NxR-zg-qWC" firstAttribute="top" secondItem="b8w-9c-KyQ" secondAttribute="top" id="Yo5-30-7PJ"/>
-                                                <constraint firstAttribute="trailing" secondItem="NxR-zg-qWC" secondAttribute="trailing" id="xxR-7F-SUz"/>
+                                                <constraint firstAttribute="bottom" secondItem="KbU-Og-fho" secondAttribute="bottom" id="2bx-rC-Qzg"/>
+                                                <constraint firstItem="KbU-Og-fho" firstAttribute="leading" secondItem="dgd-cD-PRV" secondAttribute="leading" id="FZz-BQ-LRI"/>
+                                                <constraint firstItem="KbU-Og-fho" firstAttribute="top" secondItem="dgd-cD-PRV" secondAttribute="top" id="HqZ-uh-hMs"/>
+                                                <constraint firstAttribute="trailing" secondItem="KbU-Og-fho" secondAttribute="trailing" id="yRq-Pr-yve"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="tintColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <size key="customSize" width="127" height="52.5"/>
+                                        <connections>
+                                            <outlet property="categoriaBt" destination="KbU-Og-fho" id="3v5-eQ-BVj"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="1JI-cJ-9Cu"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lcz-UE-Cyl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="95H-wn-fPx" firstAttribute="top" secondItem="uCs-8f-Z6J" secondAttribute="top" id="HGx-JR-bKk"/>
-                            <constraint firstItem="95H-wn-fPx" firstAttribute="leading" secondItem="uCs-8f-Z6J" secondAttribute="leading" constant="20" id="KcC-Ly-tft"/>
-                            <constraint firstAttribute="trailing" secondItem="95H-wn-fPx" secondAttribute="trailing" id="a90-qp-JUU"/>
-                            <constraint firstAttribute="bottom" secondItem="95H-wn-fPx" secondAttribute="bottom" id="p1t-o2-54b"/>
+                            <constraint firstItem="TVv-RW-Haa" firstAttribute="leading" secondItem="lcz-UE-Cyl" secondAttribute="leading" constant="20" id="ECG-tQ-ZeJ"/>
+                            <constraint firstItem="TVv-RW-Haa" firstAttribute="top" secondItem="Pu7-Nk-v0R" secondAttribute="top" id="THt-VI-oTZ"/>
+                            <constraint firstAttribute="trailing" secondItem="TVv-RW-Haa" secondAttribute="trailing" id="aHT-55-RDB"/>
+                            <constraint firstAttribute="bottom" secondItem="TVv-RW-Haa" secondAttribute="bottom" id="xHY-hz-23f"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9T9-Ra-cv8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJa-bz-Ml8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1191" y="49"/>
+            <point key="canvasLocation" x="-1191.304347826087" y="57.589285714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--All Books View Controller-->
         <scene sceneID="h4Z-vJ-5Si">
             <objects>
-                <viewController id="Ktq-B7-xQb" sceneMemberID="viewController">
+                <viewController id="Ktq-B7-xQb" customClass="AllBooksViewController" customModule="studiosol_SSBOOK" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bOd-tX-DZ7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="243"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -658,6 +669,10 @@
                             <constraint firstAttribute="trailing" secondItem="Szi-k0-fnX" secondAttribute="trailing" id="ek6-oN-ZAQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="Szi-k0-fnX" id="8h5-hw-bG6"/>
+                        <outlet property="tableViewHeight" destination="YE8-bp-51K" id="zEU-7u-jHq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tgj-Ld-3I5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
