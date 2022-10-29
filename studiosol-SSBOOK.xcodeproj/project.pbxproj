@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A8A67696CEF03C8740D1CB86 /* Pods_studiosol_SSBOOK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */; };
+		D80D11C9290D987A001F36C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D11C8290D987A001F36C3 /* DetailViewController.swift */; };
+		D80D11CF290DAB00001F36C3 /* FavoriteBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D11CE290DAB00001F36C3 /* FavoriteBookViewController.swift */; };
 		D84C6F82290C567F00295351 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F81290C567F00295351 /* Services.swift */; };
 		D84C6F84290C597C00295351 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F83290C597C00295351 /* API.swift */; };
 		D84C6F86290C5CAB00295351 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F85290C5CAB00295351 /* Network.swift */; };
 		D84C6F8B290C772B00295351 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F8A290C772B00295351 /* Book.swift */; };
 		D84C6F8D290C776500295351 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F8C290C776500295351 /* Author.swift */; };
 		D84C6F8F290C796C00295351 /* FavoriteBooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */; };
-		D84C6F91290C7E0300295351 /* FavoriteBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F90290C7E0300295351 /* FavoriteBooksViewController.swift */; };
 		D84C6F93290C83BE00295351 /* Alert+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F92290C83BE00295351 /* Alert+UIViewController.swift */; };
 		D84C6F95290C846300295351 /* FavoriteBookViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */; };
 		D84C6F98290C86C000295351 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C6F97290C86C000295351 /* BookViewModel.swift */; };
@@ -31,13 +32,14 @@
 /* Begin PBXFileReference section */
 		0622D841774A5087EB5775B1 /* Pods-studiosol-SSBOOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.release.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.release.xcconfig"; sourceTree = "<group>"; };
 		B5540330485B81FB15D206BA /* Pods-studiosol-SSBOOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studiosol-SSBOOK.debug.xcconfig"; path = "Target Support Files/Pods-studiosol-SSBOOK/Pods-studiosol-SSBOOK.debug.xcconfig"; sourceTree = "<group>"; };
+		D80D11C8290D987A001F36C3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D80D11CE290DAB00001F36C3 /* FavoriteBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookViewController.swift; sourceTree = "<group>"; };
 		D84C6F81290C567F00295351 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		D84C6F83290C597C00295351 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		D84C6F85290C5CAB00295351 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D84C6F8A290C772B00295351 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		D84C6F8C290C776500295351 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBooksViewModel.swift; sourceTree = "<group>"; };
-		D84C6F90290C7E0300295351 /* FavoriteBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBooksViewController.swift; sourceTree = "<group>"; };
 		D84C6F92290C83BE00295351 /* Alert+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+UIViewController.swift"; sourceTree = "<group>"; };
 		D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookViewCell.swift; sourceTree = "<group>"; };
 		D84C6F97290C86C000295351 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
@@ -136,9 +138,10 @@
 				D84C6F8A290C772B00295351 /* Book.swift */,
 				D84C6F8C290C776500295351 /* Author.swift */,
 				D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */,
-				D84C6F90290C7E0300295351 /* FavoriteBooksViewController.swift */,
 				D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */,
 				D84C6F99290C889400295351 /* DetailBookViewModel.swift */,
+				D80D11C8290D987A001F36C3 /* DetailViewController.swift */,
+				D80D11CE290DAB00001F36C3 /* FavoriteBookViewController.swift */,
 			);
 			path = "studiosol-SSBOOK";
 			sourceTree = "<group>";
@@ -264,11 +267,12 @@
 				D8B5C5BB290710DE00F70FEB /* ViewController.swift in Sources */,
 				D84C6F8D290C776500295351 /* Author.swift in Sources */,
 				D8B5C5B7290710DE00F70FEB /* AppDelegate.swift in Sources */,
+				D80D11C9290D987A001F36C3 /* DetailViewController.swift in Sources */,
 				D84C6F8F290C796C00295351 /* FavoriteBooksViewModel.swift in Sources */,
 				D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */,
+				D80D11CF290DAB00001F36C3 /* FavoriteBookViewController.swift in Sources */,
 				D84C6F93290C83BE00295351 /* Alert+UIViewController.swift in Sources */,
 				D84C6F84290C597C00295351 /* API.swift in Sources */,
-				D84C6F91290C7E0300295351 /* FavoriteBooksViewController.swift in Sources */,
 				D84C6F86290C5CAB00295351 /* Network.swift in Sources */,
 				D84C6F95290C846300295351 /* FavoriteBookViewCell.swift in Sources */,
 				D864DC47290AB98700A53CB0 /* HomeViewController.swift in Sources */,
@@ -421,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "studiosol-SSBOOK/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "studiosol-SSBOOK/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
