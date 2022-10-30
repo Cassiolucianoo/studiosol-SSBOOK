@@ -9,9 +9,8 @@ import Foundation
 import UIKit
 
 class CategoriesViewController: UIViewController {
-    
-    @IBOutlet var collectionView: UICollectionView!
-    
+        
+    @IBOutlet weak var collectionView: UICollectionView!
     
 
     
@@ -22,8 +21,8 @@ class CategoriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    //    collectionView.dataSource = self
-     //   collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.delegate = self
     }
 
 }
