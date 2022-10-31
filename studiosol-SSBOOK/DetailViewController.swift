@@ -17,19 +17,19 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var detalhesView: UIView!
     @IBOutlet weak var favoritoBt: UIButton!
     
-    @IBAction func voltar(_ sender: Any) {
+    @IBAction func back(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
+    
     
             var detailVM: DetailBookViewModel?
 
             override func viewDidLoad() {
                 super.viewDidLoad()
-                
                 setupDetailView()
-
                 detailVM?.getBookDetails() { [weak self] in
                     self?.setup()
+                    self?.navigationController?.isNavigationBarHidden = true
                 }
             }
             

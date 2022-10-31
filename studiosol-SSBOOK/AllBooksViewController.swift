@@ -26,7 +26,7 @@ override func viewDidLoad() {
     super.viewDidLoad()
     
     tableView.dataSource = self
-   // tableView.delegate = self
+    tableView.delegate = self
     
     tableView.register(UINib(nibName: "BookTableViewCell", bundle: nil), forCellReuseIdentifier: "Book")
     
@@ -71,17 +71,17 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 }
 
-//extension AllBooksViewController: UITableViewDelegate {
-//
-//func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//    guard let dvc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController else { return }
-//
-//    let book = allBooksVM.modelAt(indexPath.row)
-//    dvc.detailVM = DetailBookViewModel(book: book)
-//
-//    navigationController?.pushViewController(dvc, animated: true)
-//}
-//}
+extension AllBooksViewController: UITableViewDelegate {
+
+func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    guard let dvc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController else { return }
+
+    let book = allBooksVM.modelAt(indexPath.row)
+    dvc.detailVM = DetailBookViewModel(book: book)
+
+    navigationController?.pushViewController(dvc, animated: true)
+}
+}
 
 
 

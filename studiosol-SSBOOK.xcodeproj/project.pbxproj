@@ -36,6 +36,7 @@
 		D8B5C5C3290710E000F70FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5C5C1290710E000F70FEB /* LaunchScreen.storyboard */; };
 		D8C9FEF9290EE1F50060E7CE /* DetailBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9FEF8290EE1F50060E7CE /* DetailBookViewModel.swift */; };
 		D8C9FF00290F22660060E7CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9FEFF290F22660060E7CE /* DetailViewController.swift */; };
+		D8C9FF04290F4E860060E7CE /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9FF03290F4E860060E7CE /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		D8B5C5C4290710E000F70FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8C9FEF8290EE1F50060E7CE /* DetailBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewModel.swift; sourceTree = "<group>"; };
 		D8C9FEFF290F22660060E7CE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D8C9FF03290F4E860060E7CE /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		DE1D7E1A80924646410CA44B /* Pods_studiosol_SSBOOK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_studiosol_SSBOOK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 				D80D11EC290DE5EB001F36C3 /* CategoryCell.swift */,
 				D8C9FEF8290EE1F50060E7CE /* DetailBookViewModel.swift */,
 				D8C9FEFF290F22660060E7CE /* DetailViewController.swift */,
+				D8C9FF03290F4E860060E7CE /* Gradient.swift */,
 			);
 			path = "studiosol-SSBOOK";
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				D80D11DF290DCF62001F36C3 /* AllBooksViewModel.swift in Sources */,
 				D84C6F8F290C796C00295351 /* FavoriteBooksViewModel.swift in Sources */,
 				D8B5C5B9290710DE00F70FEB /* SceneDelegate.swift in Sources */,
+				D8C9FF04290F4E860060E7CE /* Gradient.swift in Sources */,
 				D80D11EB290DE2A4001F36C3 /* CategoriesViewController.swift in Sources */,
 				D84C6F93290C83BE00295351 /* Alert+UIViewController.swift in Sources */,
 				D80D11D5290DC72E001F36C3 /* FavoriteAuthorsViewController.swift in Sources */,
