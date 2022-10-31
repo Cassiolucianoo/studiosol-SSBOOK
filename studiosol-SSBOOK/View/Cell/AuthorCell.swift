@@ -10,12 +10,10 @@ import Foundation
 import UIKit
 
 class AuthorCell: UICollectionViewCell {
-
     
     @IBOutlet weak var nameLB: UILabel!
     @IBOutlet weak var numeroLivrosLB: UILabel!
     @IBOutlet weak var imagemView: UIImageView!
-    
     
     var authorCellVM: AuthorCellViewModel?
     
@@ -37,7 +35,7 @@ class AuthorCell: UICollectionViewCell {
         
         let imageURL = authorCellVM.imageURL
         let placeholderImage = UIImage(named: "imagePlaceholder")
-
+        
         imagemView.sd_setImage(with: imageURL, placeholderImage: placeholderImage)
         
         self.layer.borderWidth = CGFloat(0.5)

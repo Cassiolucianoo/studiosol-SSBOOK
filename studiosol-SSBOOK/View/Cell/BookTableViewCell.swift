@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-
 class BookTableViewCell: UITableViewCell {
     
     @IBOutlet weak var imagemView: UIImageView!
@@ -20,7 +19,7 @@ class BookTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     func configure() {
         guard let bookCellVM = bookCellVM else { return }
         
@@ -30,8 +29,7 @@ class BookTableViewCell: UITableViewCell {
         
         let imageURL = bookCellVM.imageURL
         let placeholderImage = UIImage(named: "imagePlaceholder")
-
+        
         imagemView.sd_setImage(with: imageURL, placeholderImage: placeholderImage)
     }
-    
 }

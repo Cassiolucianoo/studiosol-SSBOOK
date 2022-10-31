@@ -127,15 +127,17 @@
 			path = GraphQL;
 			sourceTree = "<group>";
 		};
-		D84C6F96290C86AE00295351 /* New Group */ = {
+		D84C6F96290C86AE00295351 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				D84C6F97290C86C000295351 /* BookViewModel.swift */,
+				D8C9FEF8290EE1F50060E7CE /* DetailBookViewModel.swift */,
+				D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */,
 				D80D11D6290DC835001F36C3 /* FavoriteAuthorsViewModel.swift */,
 				D80D11DA290DCA34001F36C3 /* AuthorCellViewModel.swift */,
 				D80D11DE290DCF62001F36C3 /* AllBooksViewModel.swift */,
 			);
-			path = "New Group";
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		D8B5C5AA290710DD00F70FEB = {
@@ -159,33 +161,13 @@
 		D8B5C5B5290710DE00F70FEB /* studiosol-SSBOOK */ = {
 			isa = PBXGroup;
 			children = (
-				D8C9FF12290F660B0060E7CE /* fonts */,
-				D84C6F96290C86AE00295351 /* New Group */,
-				D84C6F87290C5F8700295351 /* GraphQL */,
+				D8C9FF25290F942B0060E7CE /* Model */,
+				D8C9FF20290F8FF60060E7CE /* View */,
+				D84C6F96290C86AE00295351 /* ViewModel */,
+				D8C9FF28290F95110060E7CE /* Common */,
 				D8B5C5B6290710DE00F70FEB /* AppDelegate.swift */,
 				D8B5C5B8290710DE00F70FEB /* SceneDelegate.swift */,
-				D8B5C5BA290710DE00F70FEB /* ViewController.swift */,
-				D8B5C5BC290710DE00F70FEB /* Main.storyboard */,
-				D8B5C5BF290710E000F70FEB /* Assets.xcassets */,
-				D8B5C5C1290710E000F70FEB /* LaunchScreen.storyboard */,
 				D8B5C5C4290710E000F70FEB /* Info.plist */,
-				D864DC46290AB98700A53CB0 /* HomeViewController.swift */,
-				D84C6F83290C597C00295351 /* API.swift */,
-				D84C6F85290C5CAB00295351 /* Network.swift */,
-				D84C6F8A290C772B00295351 /* Book.swift */,
-				D84C6F8C290C776500295351 /* Author.swift */,
-				D84C6F8E290C796C00295351 /* FavoriteBooksViewModel.swift */,
-				D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */,
-				D80D11D4290DC72E001F36C3 /* FavoriteAuthorsViewController.swift */,
-				D80D11D8290DC95E001F36C3 /* AuthorCell.swift */,
-				D80D11DC290DCDAF001F36C3 /* AllBooksViewController.swift */,
-				D80D11E0290DCFE9001F36C3 /* BookTableViewCell.swift */,
-				D80D11E2290DD0AC001F36C3 /* BookTableViewCell.xib */,
-				D80D11EA290DE2A4001F36C3 /* CategoriesViewController.swift */,
-				D80D11EC290DE5EB001F36C3 /* CategoryCell.swift */,
-				D8C9FEF8290EE1F50060E7CE /* DetailBookViewModel.swift */,
-				D8C9FEFF290F22660060E7CE /* DetailViewController.swift */,
-				D8C9FF03290F4E860060E7CE /* Gradient.swift */,
 			);
 			path = "studiosol-SSBOOK";
 			sourceTree = "<group>";
@@ -207,8 +189,105 @@
 				D8C9FF17290F66150060E7CE /* Roboto-Thin.ttf */,
 				D8C9FF1E290F66170060E7CE /* Roboto-ThinItalic.ttf */,
 			);
-			name = fonts;
-			path = "New Group1/fonts";
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D8C9FF20290F8FF60060E7CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9FF24290F903B0060E7CE /* StoryBoard */,
+				D8C9FF23290F902F0060E7CE /* Controller */,
+				D8C9FF22290F90270060E7CE /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8C9FF22290F90270060E7CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D80D11D8290DC95E001F36C3 /* AuthorCell.swift */,
+				D84C6F94290C846300295351 /* FavoriteBookViewCell.swift */,
+				D80D11E0290DCFE9001F36C3 /* BookTableViewCell.swift */,
+				D80D11E2290DD0AC001F36C3 /* BookTableViewCell.xib */,
+				D80D11EC290DE5EB001F36C3 /* CategoryCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D8C9FF23290F902F0060E7CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5C5BA290710DE00F70FEB /* ViewController.swift */,
+				D864DC46290AB98700A53CB0 /* HomeViewController.swift */,
+				D80D11D4290DC72E001F36C3 /* FavoriteAuthorsViewController.swift */,
+				D80D11DC290DCDAF001F36C3 /* AllBooksViewController.swift */,
+				D80D11EA290DE2A4001F36C3 /* CategoriesViewController.swift */,
+				D8C9FEFF290F22660060E7CE /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8C9FF24290F903B0060E7CE /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5C5BC290710DE00F70FEB /* Main.storyboard */,
+				D8B5C5C1290710E000F70FEB /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D8C9FF25290F942B0060E7CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84C6F8A290C772B00295351 /* Book.swift */,
+				D84C6F8C290C776500295351 /* Author.swift */,
+				D8C9FF27290F94EA0060E7CE /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8C9FF26290F945A0060E7CE /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D84C6F85290C5CAB00295351 /* Network.swift */,
+				D84C6F83290C597C00295351 /* API.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		D8C9FF27290F94EA0060E7CE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D84C6F87290C5F8700295351 /* GraphQL */,
+				D8C9FF26290F945A0060E7CE /* Remote */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D8C9FF28290F95110060E7CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9FF2A290F95DF0060E7CE /* Ultil */,
+				D8C9FF29290F95200060E7CE /* Resource */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D8C9FF29290F95200060E7CE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9FF12290F660B0060E7CE /* fonts */,
+				D8B5C5BF290710E000F70FEB /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D8C9FF2A290F95DF0060E7CE /* Ultil */ = {
+			isa = PBXGroup;
+			children = (
+				D8C9FF03290F4E860060E7CE /* Gradient.swift */,
+			);
+			path = Ultil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

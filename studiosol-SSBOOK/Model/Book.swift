@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 struct Book {
     var id: String
     var title: String

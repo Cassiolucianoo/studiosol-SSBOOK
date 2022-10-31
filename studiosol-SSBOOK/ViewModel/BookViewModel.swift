@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct BookCellViewModel {
     private let book: Book
     
