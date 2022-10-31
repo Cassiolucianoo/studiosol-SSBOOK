@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Author {
     var name: String
     var picture: String

@@ -12,13 +12,13 @@ class DetailBookViewModel {
     var book: Book
     
     var title: String { book.title }
-
+    
     var author: String { book.author }
-
+    
     var imageURL: URL? { URL(string: book.cover) }
-
+    
     var description: String { book.description }
-
+    
     var isFavorite: Bool { book.isFavorite ?? false }
     
     init(webServices: WebServicesContract = WebServices(), book: Book) {

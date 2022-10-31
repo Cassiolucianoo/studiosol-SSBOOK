@@ -9,19 +9,17 @@ import Foundation
 import UIKit
 
 class FavoriteAuthorsViewController: UIViewController {
-
+    
     @IBOutlet private var collectionView: UICollectionView!
     
     
     private let reuseIdentifier = "Author"
-    
     private let favoriteAuthorsVM = FavoriteAuthorsViewModel()
-    
     weak var delegate: ShowAlertProtocol?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         collectionView.dataSource = self
         collectionView.delegate = self
         
@@ -41,33 +39,29 @@ class FavoriteAuthorsViewController: UIViewController {
 }
 
 extension FavoriteAuthorsViewController: UICollectionViewDataSource {
-
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return favoriteAuthorsVM.numberOfItems
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-
+        
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? AuthorCell else {
             return UICollectionViewCell()
         }
-
+        
         let author = favoriteAuthorsVM.modelAt(indexPath.row)
         cell.authorCellVM = AuthorCellViewModel(author)
-
+        
         cell.configure()
-
+        
         return cell
     }
-
+    
 }
 
 extension FavoriteAuthorsViewController: UICollectionViewDelegate {
-
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
     }
-    
-    
     
 }

@@ -14,8 +14,6 @@ class FavoriteBookViewCell: UICollectionViewCell {
     @IBOutlet weak var AutorLb: UILabel!
     @IBOutlet weak var imagem: UIImageView!
     
-    
-    
     var bookCellVM: BookCellViewModel?
     
     override func awakeFromNib() {
@@ -35,6 +33,4 @@ class FavoriteBookViewCell: UICollectionViewCell {
         imagem.sd_setImage(with: imageURL, placeholderImage: placeholderImage)
     }
     
-    
 }
-
