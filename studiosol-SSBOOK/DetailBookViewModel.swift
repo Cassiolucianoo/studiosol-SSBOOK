@@ -2,7 +2,7 @@
 //  DetailBookViewModel.swift
 //  studiosol-SSBOOK
 //
-//  Created by cassio luciano on 28/10/22.
+//  Created by cassio luciano on 30/10/22.
 //
 
 import Foundation
